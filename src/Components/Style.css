@@ -1,0 +1,26 @@
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.title{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #f32121;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
